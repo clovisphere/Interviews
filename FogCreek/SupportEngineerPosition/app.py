@@ -1,5 +1,5 @@
-#Sort the characters in a string 
-#by the number of times the character appear in a given text (descending).
+# Sort the characters in a string 
+# by the number of times the character appear in a given text (descending).
 string = 'abcdefghijklmnopqrstuvwxyz_'
 # retrieve file content
 text = ''
@@ -23,9 +23,9 @@ for i in values:
 	for key, value in a_list.items():
 		if i == value:
 			word += key	
-print('\n>Given string: {} | After sorting: {}\n\n'.format(string, word))
-#We then need to drop all characters that appear after (and including) the '_'
-#in the sorted string.
+print('\n>Given string: {} | After sorting: {}\n'.format(string, word))
+# We then need to drop all characters that appear after (and including) the '_'
+# in the sorted string.
 print('>Answer: {}\n'.format(word.split('_')[0]))
 	
 
