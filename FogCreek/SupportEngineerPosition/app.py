@@ -17,7 +17,7 @@ for c in string:
 	a_list[c] = temp
 	
 # sorted dict values
-values = sorted(a_list.values())
+values = sorted(a_list.values(), reverse=True)
 word = '' # will hold the sorted string
 for i in values:
 	for key, value in a_list.items():
