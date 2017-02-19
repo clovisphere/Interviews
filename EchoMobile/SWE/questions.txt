@@ -1,0 +1,15 @@
+1. You are given a string S composed of characters A to Z, formulate a function that transforms a given string by changing each letter as follows: ‘a’ becomes ‘z’, ‘b’ becomes ‘y’, ‘c’ becomes ‘x’, e.t.c
+
+2. You a given a string S of any length, formulate a function that splits the strings into substrings of a given length N and returns the substrings in a list. If the length of S is not evenly divisible by N, it is acceptable to have the last substring with a length less than N, see example below.
+
+3. Assume you have a sensor that reports temperature readings periodically. The readings are stored as 2 lists of equal length; List T composed of timestamps for each reading and list R composed of temperature readings for each of the matching timestamps. Your goal is to identify timestamps at which a certain threshold temperature Q was crossed.
+
+Formulate a function that takes lists T and R and a threshold temperature Q and returns a list of timestamps where Q was exceeded. Note that you should only return timestamps representing a datapoint that crosses the threshold, and ignore those that remain above the threshold.
+
+4. You are given a list P of average share prices for a particular stock for each day in a given year. Your goal is to buy 1 share and later sell it at maximum profit. Formulate a function that takes list P and returns the best day to buy (B) and the best day to sell (S). You have to buy the share before you can later sell it.
+
+5. Please see the code below which moves a ball through 2D space. You may use and edit *either* the Python or Java code below, whichever you are more comfortable with.
+
+This code defines a wall, but currently allows the ball to pass through it.  
+
+Please adjust the code so that the ball bounces back if it contacts the vertical wall.  Ignore physics (friction, gravity, etc).
