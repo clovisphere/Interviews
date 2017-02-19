@@ -1,6 +1,5 @@
 import string
 
-
 def transform_text(word):
 	"""Transform the given string/word.
 
