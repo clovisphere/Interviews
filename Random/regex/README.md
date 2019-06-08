@@ -1,6 +1,6 @@
 # Modify Text
 
-Given a text, modify it in such a way that the first letter of every sentence is lowercased, 
+Given a text or .txt file, modify it in such a way that the first letter of every sentence is lowercased, 
 the single space after every punction (,?:;!) is removed - and the first letter of the word that comes after the space lowercased.
 
 e.g
